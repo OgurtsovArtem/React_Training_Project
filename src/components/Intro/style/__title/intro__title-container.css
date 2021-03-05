@@ -1,0 +1,15 @@
+.intro__title-container{
+    width: 49.5%;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__title-container{
+        width: 61.5%;
+    }
+  }
+
+@media screen and (max-width: 425px) {
+    .intro__title-container{
+        width: 100%;
+    }
+}

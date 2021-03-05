@@ -1,0 +1,14 @@
+/* Chronicle Display */
+@font-face {
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chronicle Display Roman'), url('./fonts/Chronicle\ Display\ Roman.woff') format('woff');
+}
+/* Gilroy */
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Regular'), url('./fonts/Gilroy-Regular.woff') format('woff');
+}

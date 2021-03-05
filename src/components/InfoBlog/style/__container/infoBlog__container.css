@@ -1,0 +1,16 @@
+.infoBlog__container{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 9.375rem 0;
+}
+
+
+@media screen and (max-width: 975px) {
+    .infoBlog__container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,14 @@
+@import url(./intro__link-li.css);
+@import url(./intro__link-text.css);
+
+.intro__link {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+    .intro__link {
+        display: none;
+    }
+}

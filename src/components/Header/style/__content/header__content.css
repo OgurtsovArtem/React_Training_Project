@@ -1,0 +1,15 @@
+.header__content{
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    color: var(--white-color);
+}
+
+
+

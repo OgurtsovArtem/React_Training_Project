@@ -1,0 +1,13 @@
+@import url(./footer__discription-copyright.css);
+@import url(./footer__discription-text.css);
+@import url(./footer__discription-title.css);
+
+
+
+
+@media screen and (max-width: 660px) {
+    .footer__discription{
+        width: 100%;
+        margin-top: 5rem;
+    }
+}

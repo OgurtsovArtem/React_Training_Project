@@ -1,0 +1,8 @@
+.footer__discription-title {
+    font-family: Chronicle Display;
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    margin: 0;
+}

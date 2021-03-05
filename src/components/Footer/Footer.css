@@ -1,0 +1,15 @@
+@import url(./footer/__nav/footer__nav.css);
+@import url(./footer/__discription/footer__discriptiont.css);
+@import url(./footer/__block/footer__block.css);
+@import url(./footer/__container/footer__container.css);
+
+.footer {
+    margin-top: 12.5rem;
+    padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 660px) {
+    .footer{
+        margin-top: 0;
+    }
+}

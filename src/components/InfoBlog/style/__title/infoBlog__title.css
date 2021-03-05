@@ -1,0 +1,16 @@
+@import url(./infoBlog__title-annotation.css);
+
+.infoBlog__title{
+    font-family: Chronicle Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 1.2;
+    margin: 2.5rem auto;
+}
+
+@media screen and (max-width: 975px){
+    .infoBlog__title{
+        margin: 0;
+    }
+}

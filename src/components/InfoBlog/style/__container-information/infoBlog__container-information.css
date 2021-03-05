@@ -1,0 +1,19 @@
+.infoBlog__container-information {
+    margin: 8.75rem 9.375rem;
+    max-width: 43.5%;
+}
+
+
+@media screen and (max-width: 1024px){
+    .infoBlog__container-information {
+        margin: 5.75rem 6.375rem;
+        max-width: 75%;
+    }
+}
+@media screen and (max-width: 975px){
+    .infoBlog__container-information {
+        margin: 0;
+
+    }
+}
+

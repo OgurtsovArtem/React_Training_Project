@@ -1,0 +1,15 @@
+.intro__background-img_shadow{
+    top: 67%;
+}
+
+@media screen and (max-width: 975px) {
+    .intro__background-img_shadow {
+        top: 50%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .intro__background-img_shadow {
+        top: 55%;
+    }
+}

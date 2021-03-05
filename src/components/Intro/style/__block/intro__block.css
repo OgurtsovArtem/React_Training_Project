@@ -1,0 +1,18 @@
+.intro__block{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+
+@media screen and (max-width:768px){
+    .intro__block{
+        top: 20%;
+    }
+}
+
+/* стили для широкого смартфона */
+@media screen and (max-width: 425px) {
+    .intro__block{
+        top: 19%;
+    }
+}

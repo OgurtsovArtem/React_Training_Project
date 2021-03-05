@@ -1,0 +1,24 @@
+.header__logo{
+    text-decoration: none;
+    color: var(--white-color);
+    font-family: Chronicle Display, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2;
+    z-index: 10000;
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo{
+        position: absolute;
+        top: 14%;
+        left: 3%;
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .header__logo {
+        top: 18%;
+    }
+}

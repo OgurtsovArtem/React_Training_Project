@@ -1,0 +1,11 @@
+.intro__scroll {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+    .intro__scroll {
+        display: none;
+    }
+}

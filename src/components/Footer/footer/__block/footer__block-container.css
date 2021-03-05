@@ -1,0 +1,16 @@
+.footer__block-container{
+    display: flex;
+    align-items:flex-start;
+}
+
+@media screen and (max-width: 660px) {
+    .footer__block-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:  483px) {
+    .footer__block-container{
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,23 @@
+@import url(./header__button-img.css);
+@import url(./header__button-text.css);
+
+.header__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--white-color);
+}
+.header__button:hover{
+    color: var(--accent-color);
+}
+
+@media (max-width: 767px) {
+    .header__button {
+        border-radius: 100px;
+        border: 2px solid ;
+        padding: 1rem;
+    }
+}

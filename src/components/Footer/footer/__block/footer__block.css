@@ -1,0 +1,24 @@
+@import url(./footer__block-container.css);
+@import url(./footer__block-title.css);
+
+.footer__block{
+    margin-left: 13.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__block{
+        margin-left: 7.25rem;
+    }
+}
+@media screen and (max-width: 660px) {
+    .footer__block{
+        margin-left: 0;
+        margin-right: 5rem;
+    }
+}
+
+@media screen and (max-width:  483px) {
+    .footer__block{
+        margin-right: 0;
+    }
+}

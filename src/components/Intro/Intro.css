@@ -1,0 +1,15 @@
+@import url(./style/__background-container/intro__background-container.css);
+@import url(./style/__block/intro__block.css);
+@import url(./style/__link/intro__link.css);
+@import url(./style/__container/intro__container.css);
+@import url(./style/__title/intro__title.css);
+@import url(./style/__background-img/intro__background-img.css);
+@import url(./style/__scroll/intro__scroll.css);
+
+
+.intro {
+    position: relative;
+}
+
+
+

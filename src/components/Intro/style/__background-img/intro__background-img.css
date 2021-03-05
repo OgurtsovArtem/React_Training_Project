@@ -1,0 +1,20 @@
+@import url(./_ground/intro__background-img_ground.css);
+@import url(./_mountain/intro__background-img_mountain.css);
+@import url(./_shadow/intro__background-img_shadow.css);
+
+.intro__background-img{
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 975px) {
+    .intro__background-img{
+        width: 100%;
+        height: 600px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}

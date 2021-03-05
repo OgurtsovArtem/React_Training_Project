@@ -1,0 +1,14 @@
+.footer__discription-text{
+    font-family: Gilroy;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    width: 62%;
+    margin: 1.5rem 0 7.625rem;
+}
+
+@media screen and (max-width: 660px) {
+    .footer__discription-text{
+        margin: 1.5rem 0;
+    }
+}

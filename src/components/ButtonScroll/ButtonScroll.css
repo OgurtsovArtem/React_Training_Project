@@ -1,0 +1,57 @@
+/* КНОПКА ПЕРЕДЕЛАТЬ */
+
+.button-scroll {
+    position: relative;
+    opacity: 1;
+
+    background-color: transparent;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10rem;
+}
+.button-scroll__arrow {
+    margin: 2.3rem auto 1rem;
+    width: 2.375rem;
+    height: 6.25rem;
+}
+.button-scroll__arrow span {
+    display: block;
+    width: 1.875rem;
+    height: 1.875rem;
+    border-bottom: 0.3125rem solid var(--white-color);
+    border-right: 0.3125rem solid var(--white-color);
+    transform: rotate(45deg);
+    margin: -1rem 0;
+    animation: button-scroll__arrow 2s infinite;
+}
+.button-scroll__arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.button-scroll__arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes button-scroll__arrow {
+    0%{
+        opacity: 0;
+        transform: translate(0,-1.25rem) rotate(45deg);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0,1.25rem) rotate(45deg);
+    }
+}
+
+
+.button-scroll_hidden{
+    transform: translate3d(0px, 50vh, 0px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in;
+}

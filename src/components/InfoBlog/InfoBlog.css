@@ -1,0 +1,13 @@
+@import url(./style/__container-information/infoBlog__container-information.css);
+@import url(./style/__container/infoBlog__container.css);
+@import url(./style/__img/infoBlog__img.css);
+@import url(./style/__number/infoBlog__number.css);
+@import url(./style/__text/infoBlog__text.css);
+@import url(./style/__title/infoBlog__title.css);
+@import url(./style/__textline/infoBlog__textline.css);
+@import url(./style/__button/infoBlog__button.css);
+
+.infoBlog{
+    margin-top: 9.375rem;
+    background-color:  var(--main-background-color);
+}

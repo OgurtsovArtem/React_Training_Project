@@ -1,0 +1,13 @@
+.intro__background-img_ground{
+    top: 47%;
+    object-position: 30% 50%;
+}
+
+@media screen and (max-width: 975px) {
+    .inintro__background-img_ground{
+        transform-style: preserve-3d;
+        will-change: transform;
+        transform: translate3d(0px, -3%, 0px);
+        top: 57%;
+    }
+}

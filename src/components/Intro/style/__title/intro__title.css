@@ -1,0 +1,9 @@
+@import url(./intro__title-container.css);
+
+.intro__title {
+    font-family: Chronicle Display;
+    font-style: normal;
+    font-size: 5.375rem;
+    line-height: 1.2;
+    margin: 2rem 0;
+}
