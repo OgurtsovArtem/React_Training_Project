@@ -1,6 +1,6 @@
 import React from "react";
 import './Popup.css'
-import ButtonClose from "../ButtonClose/ButtonClose.js";
+import ButtonClose from "./ButtonClose/ButtonClose.js";
 import { useForm } from "react-hook-form";
 
 function Popup(props) {

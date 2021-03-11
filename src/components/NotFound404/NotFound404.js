@@ -14,20 +14,24 @@ function NotFound404() {
     <>
     <Header/>
     <div className="notFound__content">
-        <h1 className='notFound__title'>404</h1>
-        <h2 className='notFound__subtitle'>Page not found</h2>
-        <p className='notFound__text'>I tried to catch some fog, but i mist</p>
-        <Link to='/' className='notFound__button'>back to home</Link>
+        <div>
+          <h1 className="notFound__title">404</h1>
+          <h2 className="notFound__subtitle">Page not found</h2>
+          <p className="notFound__text">I tried to catch some fog, but i mist</p>
+        </div>
+        <button className="notFound__button">
+          <Link to='/' className="link">back to home</Link>
+        </button>
         <picture>
-            <source srcset={background1280} media="(min-width: 525px)"></source>
-            <source srcset={background2k} media="(min-width: 1280px)"></source>
-            <source srcset={background5k} media="(min-width: 2881px)"></source>
-            <source srcset={backgroundPhone} media="(min-width: 0px)"></source>
-            <img src={background1280} className='notFound__img'  alt="Background" />
+            <source srcSet={background5k} media="(min-width: 2881px)"></source>
+            <source srcSet={background2k} media="(min-width: 1280px)"></source>
+            <source srcSet={background1280} media="(min-width: 525px)"></source>
+            <source srcSet={backgroundPhone} media="(min-width: 0px)"></source>
+            <img srcSet={background1280} className="notFound__img"  alt="Background" />
         </picture>
     </div>
     </>
   );
 }
 
-export default NotFound404; 
+export default NotFound404;
