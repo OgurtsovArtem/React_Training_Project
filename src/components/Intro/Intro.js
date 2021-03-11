@@ -11,8 +11,7 @@ import ShadowBackgrund  from "../../images/background/BGContent.png";
 // Components
 
 import ButtonScroll from "../ButtonScroll/ButtonScroll.js";
-
-
+import BackgroundVideo from "../BackgroundVideo/BackgroundVideo.js"
 
 class Intro extends React.Component {
     constructor(props){
@@ -23,10 +22,11 @@ class Intro extends React.Component {
         return(
             <section className="intro" ref={this.scrollElement}>
                 <div className="intro__background-container">
-                    <img src={skyBackgrund} className="intro__background-img intro__background-img_sky" alt="sky" />
+                    <BackgroundVideo/>
+                    {/* <img src={skyBackgrund} className="intro__background-img intro__background-img_sky" alt="sky" />
                     <img src={mountainBackgrund} className="intro__background-img intro__background-img_mountain"  alt="mountain" />
                     <img src={groundBackgrund} className="intro__background-img intro__background-img_ground"  alt="ground" />
-                    <img src={ShadowBackgrund} className="intro__background-img intro__background-img_shadow"  alt="shadow" />            
+                    <img src={ShadowBackgrund} className="intro__background-img intro__background-img_shadow"  alt="shadow" />             */}
                 </div>
                 <div className="intro__block">
                     <div className="intro__container width-control">

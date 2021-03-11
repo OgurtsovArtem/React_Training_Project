@@ -1,7 +1,7 @@
 .intro__block{
     width: 100%;
     position: absolute;
-    top: 20%;
+    top: 30%;
 }
 
 @media screen and (max-width:768px){
