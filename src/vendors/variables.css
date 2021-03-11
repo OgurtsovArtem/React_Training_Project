@@ -1,12 +1,18 @@
 :root {
     --accent-color: #FBD784;
-    --body-background-color: #0B1D26;
-    --html-background-color: rgba(3, 18, 26, 0.8);
+
     --white-color: #FFF;
-
-
 
     --link-color: #FFF;
     --text-color: #FFF;
     --title-color: #FFF;
+    --body-background-color: #0B1D26;
+    --body-mobile-background-color: #070c0f;
+    --html-background-color: rgba(3, 18, 26, 0.8);
+
+    /* --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px */
 }
