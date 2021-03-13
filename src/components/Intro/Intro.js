@@ -4,10 +4,10 @@ import './Intro.css'
 import twitterIcon from '../../images/Twitter.svg';
 import instagramIcon from '../../images/Insta.svg';
 // Images
-import groundBackgrund  from "../../images/background/VG.png";
-import mountainBackgrund  from "../../images/background/MG.png";
-import skyBackgrund  from "../../images/background/HG.png";
-import ShadowBackgrund  from "../../images/background/BGContent.png";
+// import groundBackgrund  from "../../images/background/VG.png";
+// import mountainBackgrund  from "../../images/background/MG.png";
+// import skyBackgrund  from "../../images/background/HG.png";
+// import ShadowBackgrund  from "../../images/background/BGContent.png";
 // Components
 
 import ButtonScroll from "../ButtonScroll/ButtonScroll.js";
