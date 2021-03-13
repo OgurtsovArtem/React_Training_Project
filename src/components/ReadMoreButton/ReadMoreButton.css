@@ -1,0 +1,11 @@
+.readMoreButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    background-color: transparent;
+}
+
+.readMoreButton-text{
+    margin-right: 1rem;
+}
