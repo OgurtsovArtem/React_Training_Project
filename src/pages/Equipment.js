@@ -4,7 +4,8 @@ class Equipment extends React.Component {
 
   render(){
     return (
-        <h1>Equipment</h1>
+      <iframe style={{backgroundColor: "#ffffff", width: "450px",height: "450px"}} src="https://ogurtsovartem.github.io/NewsWidget/" name="news-novosti" ></iframe>
+
     );
   }
 }
