@@ -1,12 +1,7 @@
   @import url(./vendors/normalize.css);
   @import url(./vendors/fonst.css);
   @import url(./vendors/variables.css);
-  * {
-    box-sizing: border-box;
-  }
-  h1,h2,h3,h4,h5,p,a {
-    margin: 0;
-  }
+
   body {
     background-color:  var(--body-background-color);
     color: var(--white-color);
@@ -70,9 +65,6 @@
   @media screen and (max-width: 768px) {
     html {
       font-size: 10px;
-    }
-    body{
-      background-color:  var(--body-mobile-background-color);
     }
   }
         /* стили для широкого смартфона */
