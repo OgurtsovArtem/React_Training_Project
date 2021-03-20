@@ -1,22 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 import './BlogContent.css'
 
-import BlogCard from '../BlogCard/BlogCard'
-import SidebarRandom from '../SidebarRandom/SidebarRandom'
+import BlogBody from '../BlogBody/BlogBody'
 
 function BlogContent()  {
     return (
         <section className="blog">
-            <div className='blog__container width-control'>
-                <div className="blog__card-container">
-                    <BlogCard />
-                </div>
-                <aside className='blog__sidebar-container'>
-                    {/* <SidebarPopular /> */}
-                    <SidebarRandom />
-                </aside>
-            </div>
+            <BlogBody />
         </section>
     );
 }

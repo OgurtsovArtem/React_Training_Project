@@ -1,16 +1,4 @@
-.blog__container {
-    display: grid;
-    grid-template-columns: 1fr 25%;
-}
-.blog__card-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 2rem;
-    grid-gap: 2rem 1rem;
-    padding-right: 1rem;
-}
-.blog__sidebar-container {
-    border-left: 1px solid var(--accent-color);
-    align-items: center;
-    justify-content: center;
+.blog {
+    height: 100vh;
+    border-bottom: 1px solid var(--accent-color);
 }
