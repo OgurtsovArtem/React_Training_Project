@@ -1,0 +1,29 @@
+.error {
+ margin: 0 auto;
+ width: 100%;
+ min-height: 20rem;
+}
+
+.error__container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding: 10rem 0;
+}
+
+.error__title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    color: #FFF;
+
+}
+
+.error__text {
+    margin: 3rem auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    color: #FFF;
+}
