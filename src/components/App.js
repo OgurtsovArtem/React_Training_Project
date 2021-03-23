@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import Main from '../pages/Main';
 import Blog from '../pages/Blog';
 import AboutUs from '../pages/AboutUs';
-import Equipment from '../pages/Equipment';
+import Gallery from '../pages/Gallery';
 import NotFound404 from './NotFound404/NotFound404'
 
 import './App.css';
@@ -21,8 +21,8 @@ function App() {
       <Route  path="/blog">
         <Blog />
       </Route>
-      <Route  path="/equipment">
-        <Equipment />
+      <Route  path="/gallery">
+        <Gallery />
       </Route>
       <Route path="*">
         <NotFound404 />
