@@ -4,6 +4,7 @@ import 'swiper/swiper-bundle.css';
 import './BlogBody.scss';
 
 import BlogPreloader from '../BlogPreloader/BlogPreloader';
+import ErrorPage from '../ErrorPage/ErrorPage';
 
 import SwiperCore, { Navigation, Pagination, Scrollbar, Controller, Autoplay  } from 'swiper/core';
 // Install modules
@@ -28,13 +29,15 @@ class BlogBody extends React.Component {
     return { hasError: true };
   }
     componentDidMount(){
-      const settings = `search/photos?&query=mountain`
+      const settings = `search/photos?&query=alps`
       this.apiLoader(settings)
     }
     componentDidUpdate(){
       this.button = document.getElementById('button-blog-search');
       this.button.addEventListener('click', this.apiSearch)
-      this.slider()
+      if (this.state.images.length > 0) {
+        this.slider()
+      }
     }
     componentWillUnmount(){
       this.button.removeEventListener('click', this.apiSearch)
@@ -55,7 +58,12 @@ class BlogBody extends React.Component {
         },
       })
       .then(this.setState({loading: true}))
-      .then(res => res.json())
+      .then(res => {
+        if (res.ok) {
+            return res.json();
+          }
+          return Promise.reject(`Ошибка: ${res.status}`);
+      })
       .then(res => {
         console.log(Object.values(res))
         this.setState({ images: Object.values(res)[2] })
@@ -170,7 +178,7 @@ render(){
   }
   if(hasError) {
     return(
-      <p>ОШИБКА</p>
+      <ErrorPage error={error}/>
     )
   }
     return(

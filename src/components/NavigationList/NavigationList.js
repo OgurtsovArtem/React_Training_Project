@@ -15,8 +15,8 @@ function NavigationList(props) {
     <nav className={props.className}>
         <ul className="header__nav-ul">
             <li className="header__nav-li">
-                <NavLink to="/equipment" className="header__nav-link link link-hover" >
-                    Equipment
+                <NavLink to="/gallery" className="header__nav-link link link-hover" >
+                    Gallery
                 </NavLink>
             </li>
             <li className="header__nav-li">
