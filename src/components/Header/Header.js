@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import ButtonBurger  from "../ButtonBurger/ButtonBurger.js";
 import NavigationList from "../NavigationList/NavigationList.js"
@@ -17,7 +18,7 @@ function Header(props) {
       <header className="header">
         <ButtonBurger onclick={handleChange} isActive={isTimeShown} />
         <div className="header__content width-control">
-            <a href="./" className="header__logo">MNTN</a>
+            <Link to="/" className="header__logo">MNTN</Link>
             <div className="header__nav-block" >
                 <NavigationList className={navControll}/>         
             </div>

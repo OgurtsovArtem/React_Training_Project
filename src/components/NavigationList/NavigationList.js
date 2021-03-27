@@ -1,12 +1,12 @@
 import React from 'react';
 import buttonLogo from '../../images/cart.svg';
-import Popup from "../Popup/Popup.js";
+import { NavLink } from 'react-router-dom';
 
 // ПЕРЕПИСАТЬ КЛАССЫ КОМПОНЕНТА
 function NavigationList(props) {
     const [openPopup, setOpenPopup] = React.useState(false)
 
-    function handleChange(params) {
+    function handleChange() {
         setOpenPopup(!openPopup)
     }
 
@@ -15,19 +15,19 @@ function NavigationList(props) {
     <nav className={props.className}>
         <ul className="header__nav-ul">
             <li className="header__nav-li">
-                <a href="#" className="header__nav-link link link-hover" >
-                    Equipment
-                </a>
+                <NavLink to="/gallery" className="header__nav-link link link-hover" >
+                    Gallery
+                </NavLink>
             </li>
             <li className="header__nav-li">
-                <a href="#" className="header__nav-link link link-hover" >
+                <NavLink to="/about-us" className="header__nav-link link link-hover" >
                     About us
-                </a>
+                </NavLink>
             </li>
             <li className="header__nav-li">
-                <a href="#" className="header__nav-link link link-hover" >
+                <NavLink to="/blog" className="header__nav-link link link-hover" >
                     Blog
-                </a>
+                </NavLink>
             </li>
         </ul>
     <button className="header__button button-login" onClick={handleChange} >
